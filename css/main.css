@@ -11,5 +11,14 @@ ul a {
 }
 
 h1 {
-    color: red;
+    color: darkgreen;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: rgb(43, 0, 43);
+    
 }
