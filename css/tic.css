@@ -1,0 +1,25 @@
+.tic {
+    width: 18.75em;
+    height: 18.75em;
+}
+.tic td, .tic tr {
+    width: 30%;
+    height: 30%;
+}
+.tic td {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    font-size: 6em;
+    text-align: center;
+}
+.tic td:last-child {
+    border-right: 0;
+}
+.tic tr:last-child td {
+    border-bottom: 0;
+}
+
+
+
+
+
