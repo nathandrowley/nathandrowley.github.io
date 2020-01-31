@@ -23,7 +23,17 @@
 section{
     background-color: darkgrey;
 }
-
+ul {
+    list-style-type: none;
+}
+ul a {
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    text-decoration: none;
+    width: 70%;
+}
 
 
 
