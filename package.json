@@ -1,0 +1,26 @@
+{
+  "name": "cit-261",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon scripts/stock.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathandrowley/nathandrowley.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathandrowley/nathandrowley.github.io/issues"
+  },
+  "homepage": "https://github.com/nathandrowley/nathandrowley.github.io#readme",
+  "description": "",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
