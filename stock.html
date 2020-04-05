@@ -4,28 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
     <title>Stock App</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/stock.css">
    
 </head>
+
+<body>
+   
+<br>
+<br>
+<script></script>
+
+
+<div class="stockData">
+
+    <p class="symbol">How company is listed on stock exchange</p>
+    <p class="name">Company Name</p>
+    <p class="price">Current cost</p>
+    <p class="change">Percent of change on current day</p>
+    <p class="exchange">what market its listed under</p>
+    <p class="timestamp">Time stamp of request</p>
+
+</div>
+
+<script src="scripts/stock.js"></script>
+<input id="userinput">
+<button onclick="search()">Search for Stock</button>
+
+</body>
+<footer>
 <nav>
     <ul>
         <li><a href="index.html"> Home </a></li>
       
     </ul>
 </nav>
-
-<body>
-   
-<br>
-<br>
-<input id="userinput">
-<button onclick="search()">Search for Stock</button>
-
-
-<div class="stockContainer"></div>
-
-<script src="scripts/stock.js"></script>
-
-
-</body>
+</footer>

@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+}
+ul a {
+    background-color: lightgray;
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    text-decoration: none;
+    width: 70%;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+h2 {
+    color: green;
+}
+
+h3{
+    color: green;
+    transform: skew(15deg, 4deg);
+}
+
+p {
+    color: rgb(43, 0, 43);
+        
+}
+
+div.stockData{
+    border: double;
+    
+}
+
+.symbol {
+    font: 15px Arial, sans-serif;
+}
+
+body {
+    background-image: url("cta-bg.jpg");
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
